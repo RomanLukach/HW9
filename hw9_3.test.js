@@ -21,7 +21,7 @@ describe ('Bonus calculation - positive tests', () => {
     it('Negative', () => {
         expect(calculateBonus(-20, -29)).toBe(-49);  
         expect(calculateBonus(20, -29)).toBe(-9);
-        expect(calculateBonus(20, '50')).toBe('2050');  
-        expect(calculateBonus(25, 'text')).toBe('25text');
+        expect(calculateBonus(20, '50')).toBe('fail');  
+        expect(calculateBonus(25, 'text')).toBe('fail');
     })
 })
