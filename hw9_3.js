@@ -7,5 +7,7 @@ const calculateBonus = (a, b) => {
 //    debugger;
     return bonus;
     };
-    
-export default calculateBonus
+   
+module.exports = calculateBonus;
+
+// export default calculateBonus
